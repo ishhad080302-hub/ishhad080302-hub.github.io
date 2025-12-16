@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: rgb(63, 59, 59);
+    background-color: rgb(28, 25, 25);
     color: white;
 }
 
@@ -10,7 +10,7 @@ body {
     grid-template-columns: 1fr 5fr;
     align-items: center;
     padding: 20px 25px;
-    background-color: #000;
+    background-color: #000000;
 }
 
 
@@ -54,21 +54,125 @@ body {
     flex-wrap: wrap;
 }
 
+
+
 .image img {
     width: 200px;
-    height: auto;
+    height: 200px;
+    object-fit: cover;
     border-radius: 10px;
     box-shadow: 3px 3px 8px rgba(21, 21, 21, 0.2);
     margin: 35px;
 }
 
+
 footer {
-    background-color: #1a1919;
-    color: white;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
     text-align: center;
-    padding: 20px;
-    font-size: 18px;
-    position: fixed;
-    bottom: 0;
+    padding: 5px;
+    font-size: 35px;
+   
     width: 100%;
 }
+
+   body {
+            background-image: url('BackgroundFood.jpg'); 
+            background-size: cover;      
+            background-repeat: no-repeat;
+            background-position: center;  
+            color: white;    
+            
+            display: flex;
+            flex-direction: column;
+   
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(28, 25, 25);
+    color: white;
+
+    min-height: 100vh;
+}
+
+.order {
+    max-width: 400px;
+    margin: 60px auto;
+    padding: 20px;
+    background-color: rgb(40, 40, 40);
+    border-radius: 10px;
+}
+
+.order h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.order form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.order label {
+    font-size: 14px;
+}
+
+.order input,
+.order select {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+}
+
+.order input:focus,
+.order select:focus {
+    outline: none;
+}
+
+.order button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #ff8c00;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.order button:hover {
+    background-color: #ffa733;
+}
+
+
+.main-content {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0 50px; 
+}
+
+
+
+main{
+    flex-grow: 1;
+}
+
+
+.textmitten{ 
+  position: absolute;       
+    top: 50%;                 
+    left: 50%;                
+    transform: translate(-50%, -50%); 
+    color: rgb(255, 255, 255);           
+    font-size: 30px;          
+    text-align: center;
+    background-color: rgb(21, 19, 19);
+     }
+    
+    .background {
+            background-color: rgb(65, 59, 59);
+    }
+
+    
